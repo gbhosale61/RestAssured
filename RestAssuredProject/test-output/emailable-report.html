@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">12</td><td class="num">0</td><td class="num">0</td><td class="num attn">5</td><td class="num">18,423</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="5">TestNGAPI.GetRequestValidationTask</td><td><a href="#m0">validateResponseAvatar</a></td><td rowspan="1">1685701737982</td><td rowspan="1">51</td></tr><tr class="failedeven"><td><a href="#m1">validateResponseCodeUsingGet</a></td><td rowspan="1">1685701737761</td><td rowspan="1">25</td></tr><tr class="failedeven"><td><a href="#m2">validateResponsePayLoadEmail</a></td><td rowspan="1">1685701737796</td><td rowspan="1">59</td></tr><tr class="failedeven"><td><a href="#m3">validateResponsePayLoadFirstName</a></td><td rowspan="1">1685701737872</td><td rowspan="1">49</td></tr><tr class="failedeven"><td><a href="#m4">validateResponsePayLoadLastName</a></td><td rowspan="1">1685701737929</td><td rowspan="1">47</td></tr><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="11">TestNGAPI.EndToEndFLow</td><td><a href="#m5">updateEntityUsingPutRequest</a></td><td rowspan="1">1685701738987</td><td rowspan="1">563</td></tr><tr class="passedeven"><td><a href="#m6">validateResponsePayLoadAvatar1</a></td><td rowspan="1">1685701738935</td><td rowspan="1">46</td></tr><tr class="passedeven"><td><a href="#m7">validateResponsePayLoadAvatarPut</a></td><td rowspan="1">1685701739722</td><td rowspan="1">47</td></tr><tr class="passedeven"><td><a href="#m8">validateResponsePayLoadEmail1</a></td><td rowspan="1">1685701738715</td><td rowspan="1">115</td></tr><tr class="passedeven"><td><a href="#m9">validateResponsePayLoadEmailPut</a></td><td rowspan="1">1685701739555</td><td rowspan="1">51</td></tr><tr class="passedeven"><td><a href="#m10">validateResponsePayLoadFirstNamePut</a></td><td rowspan="1">1685701739616</td><td rowspan="1">47</td></tr><tr class="passedeven"><td><a href="#m11">validateResponsePayLoadFirst_Name</a></td><td rowspan="1">1685701738834</td><td rowspan="1">47</td></tr><tr class="passedeven"><td><a href="#m12">validateResponsePayLoadLastNamePut</a></td><td rowspan="1">1685701739671</td><td rowspan="1">45</td></tr><tr class="passedeven"><td><a href="#m13">validateResponsePayLoadLast_Name</a></td><td rowspan="1">1685701738884</td><td rowspan="1">46</td></tr><tr class="passedeven"><td><a href="#m14">validateStatusCode</a></td><td rowspan="1">1685701738704</td><td rowspan="1">4</td></tr><tr class="passedeven"><td><a href="#m15">validateStatusCodePut</a></td><td rowspan="1">1685701739772</td><td rowspan="1">5</td></tr><tr class="passedodd"><td rowspan="1">TestNGAPI.GetRequestValidationTask</td><td><a href="#m16">validategetdemo</a></td><td rowspan="1">1685701734951</td><td rowspan="1">2791</td></tr></tbody>
+</table>
+<h2>Test</h2><h3 id="m0">TestNGAPI.GetRequestValidationTask#validateResponseAvatar</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [avatar&quot;:&quot;https://reqres.in/img/faces/1-image.jpg] but found [null]
+	at TestNGAPI.GetRequestValidationTask.validateResponseAvatar(GetRequestValidationTask.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">TestNGAPI.GetRequestValidationTask#validateResponseCodeUsingGet</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [200] but found [404]
+	at TestNGAPI.GetRequestValidationTask.validateResponseCodeUsingGet(GetRequestValidationTask.java:60)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">TestNGAPI.GetRequestValidationTask#validateResponsePayLoadEmail</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [george.bluth@reqres.in] but found [null]
+	at TestNGAPI.GetRequestValidationTask.validateResponsePayLoadEmail(GetRequestValidationTask.java:66)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">TestNGAPI.GetRequestValidationTask#validateResponsePayLoadFirstName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [George] but found [null]
+	at TestNGAPI.GetRequestValidationTask.validateResponsePayLoadFirstName(GetRequestValidationTask.java:71)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">TestNGAPI.GetRequestValidationTask#validateResponsePayLoadLastName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: expected [Bluth] but found [null]
+	at TestNGAPI.GetRequestValidationTask.validateResponsePayLoadLastName(GetRequestValidationTask.java:76)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">TestNGAPI.EndToEndFLow#updateEntityUsingPutRequest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">TestNGAPI.EndToEndFLow#validateResponsePayLoadAvatar1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">TestNGAPI.EndToEndFLow#validateResponsePayLoadAvatarPut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">TestNGAPI.EndToEndFLow#validateResponsePayLoadEmail1</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m9">TestNGAPI.EndToEndFLow#validateResponsePayLoadEmailPut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m10">TestNGAPI.EndToEndFLow#validateResponsePayLoadFirstNamePut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m11">TestNGAPI.EndToEndFLow#validateResponsePayLoadFirst_Name</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m12">TestNGAPI.EndToEndFLow#validateResponsePayLoadLastNamePut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m13">TestNGAPI.EndToEndFLow#validateResponsePayLoadLast_Name</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m14">TestNGAPI.EndToEndFLow#validateStatusCode</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m15">TestNGAPI.EndToEndFLow#validateStatusCodePut</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m16">TestNGAPI.GetRequestValidationTask#validategetdemo</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
